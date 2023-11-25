@@ -1,6 +1,8 @@
-# Next.js & NextUI Template
+# Shared Braincell
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+This not a real site, this is a joke.
+
+
 
 ## Technologies Used
 
