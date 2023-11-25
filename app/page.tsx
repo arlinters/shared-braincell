@@ -9,34 +9,41 @@ export default function Home() {
 	return (
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
 			<div className="inline-block max-w-lg text-center justify-center">
-				<h1 className={title()}>Make&nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
+				<h1 className={title({color: "pink"})}>Shared Braincell</h1>
+				<br/>
+				<h1 className={title()}>The race to World First</h1>
 				<br />
-				<h1 className={title()}>
-					websites regardless of your design experience.
-				</h1>
-				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
+				<h2 className={subtitle()}>
+					(in being cool)
 				</h2>
+
+				<img className="ml-auto mr-auto" src="/Orc_male250x.webp" alt="Badass Orc doing real dance moves" width="250"></img>
+
+			<p>
+			Nyaa~! Hewwo from Shared Braincell! (*＾▽＾)／ Get weady to embark on a kawaii journey wike no othew as you step into the weawm of Azeowoth with the most ewite guild in the wowld. (*≧ω≦)
+			</p>
+
+			<h2 className={subtitle()}>
+			Fowge Youw Wegacy
+
+			</h2>
+			<p></p>
+This is nyot just a guild; it's a wegacy in the making. Shared Braincell is youw gatewày to a wowwd whewe gaming weaches nyew heights. Join us, and togethew, we'ww wedefinye what it means to be wegendawy in Azeowoth. (灬º‿º灬)♡
+
+Hit that join button, and wet the epic jouwney begin! (*≧ω≦)
 			</div>
 
 			<div className="flex gap-3">
 				<Link
 					isExternal
 					href={siteConfig.links.discord}
-					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
+					className={buttonStyles({ size:'lg', color: "primary", radius: "full", variant: "shadow", })}
 				>
 					Join Our Discord
 				</Link>
 			</div>
 
-			<div className="mt-8">
-				<Snippet hideSymbol hideCopyButton variant="flat">
-					<span>
-						Get started by editing <Code color="primary">app/page.tsx</Code>
-					</span>
-				</Snippet>
-			</div>
+
 		</section>
 	);
 }
