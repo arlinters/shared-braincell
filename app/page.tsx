@@ -19,18 +19,18 @@ export default function Home() {
 
 				<img className="ml-auto mr-auto" src="/Orc_male250x.webp" alt="Badass Orc doing real dance moves" width="250"></img>
 
-			<p>
+			<p className='mb-4'>
 			Nyaa~! Hewwo from Shared Braincell! (*＾▽＾)／ Get weady to embark on a kawaii journey wike no othew as you step into the weawm of Azeowoth with the most ewite guild in the wowld. (*≧ω≦)
 			</p>
 
-			<h2 className={subtitle()}>
-			Fowge Youw Wegacy
-
+			<h2 className={title({color:'pink'})}>
+				Fowge Yer Wegacy
 			</h2>
-			<p></p>
-This is nyot just a guild; it's a wegacy in the making. Shared Braincell is youw gatewày to a wowwd whewe gaming weaches nyew heights. Join us, and togethew, we'ww wedefinye what it means to be wegendawy in Azeowoth. (灬º‿º灬)♡
+			<p className='mt-4'>
+	This is nyot just a guild; it's a wegacy in the making. Shared Braincell is youw gatewày to a wowwd whewe gaming weaches nyew heights. Join us, and togethew, we'ww wedefinye what it means to be wegendawy in Azeowoth. (灬º‿º灬)♡
 
-Hit that join button, and wet the epic jouwney begin! (*≧ω≦)
+	Hit that join button, and wet the epic jouwney begin! (*≧ω≦)
+</p>
 			</div>
 
 			<div className="flex gap-3">
