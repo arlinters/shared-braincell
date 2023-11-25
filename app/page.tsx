@@ -28,7 +28,7 @@ export default function Home() {
 				Fowge Yer Wegacy
 			</h2>
 			<p className='mt-4'>
-	This is nyot just a guild; it's a wegacy in the making. Shared Braincell is youw gatewày to a wowwd whewe gaming weaches nyew heights. Join us, and togethew, we'ww wedefinye what it means to be wegendawy in Azeowoth. (灬º‿º灬)♡
+	This is nyot just a guild; it&apos;s a wegacy in the making. Shared Braincell is youw gatewày to a wowwd whewe gaming weaches nyew heights. Join us, and togethew, we&apos;ww wedefinye what it means to be wegendawy in Azeowoth. (灬º‿º灬)♡
 
 	Hit that join button, and wet the epic jouwney begin! (*≧ω≦)
 </p>
