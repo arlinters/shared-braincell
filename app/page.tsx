@@ -18,7 +18,7 @@ export default function Home() {
 					(in being cool)
 				</h2>
 
-				<Image className="ml-auto mr-auto" src="/Orc_male250x.webp" alt="Badass Orc doing real dance moves" width="250"></Image>
+				<Image className="ml-auto mr-auto" height="250" src="/Orc_male250x.webp" alt="Badass Orc doing real dance moves" width="250"></Image>
 
 			<p className='mb-4'>
 			Nyaa~! Hewwo from Shared Braincell! (*＾▽＾)／ Get weady to embark on a kawaii journey wike no othew as you step into the weawm of Azeowof wif the most ewite guild in the wowld. (*≧ω≦)
@@ -44,7 +44,12 @@ export default function Home() {
 				</Link>
 			</div>
 
-
+			<div className="inline-block max-w-lg text-center justify-center">
+				<h1 className={title({color: "pink"})}>God Emperor Shrine</h1>
+				<Image className="ml-auto mt-4 mr-auto" height="250" src="/god-emperor.png" alt="Badass Orc doing real dance moves" width="250"></Image>
+				<p>Yeah, we have a God Emperor.</p>
+			</div>
 		</section>
+
 	);
 }
